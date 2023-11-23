@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module 01</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header section -->
@@ -17,10 +17,14 @@
           <li class="item"><a href="link">Контакти</a></li>
         </ul>
       </nav>
-      <div class="header-gruop">
-        <a href="info@devstudio.com">info@devstudio.com</a>
-        <p>+38 096 111 11 11</p>
-      </div>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="nav-item">
+          <a href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <!-- section Hero -->
@@ -70,13 +74,25 @@
             <img
               src="./images/services/img-(1).jpg"
               alt="набір тексту на клавіатуре"
+              width="370"
+              height="294"
             />
           </li>
           <li class="item-services">
-            <img src="./images/services/img-(2).jpg" alt="робота з телефону" />
+            <img
+              src="./images/services/img-(2).jpg"
+              alt="робота з телефону"
+              width="370"
+              height="294"
+            />
           </li>
           <li class="item-services">
-            <img src="./images/services/img-(3).jpg" alt="робота з планшета" />
+            <img
+              src="./images/services/img-(3).jpg"
+              alt="робота з планшета"
+              width="370"
+              height="294"
+            />
           </li>
         </ul>
       </section>
@@ -129,16 +145,10 @@
     </main>
     <footer class="footer">
       <a href="./index.html" aria-label="site-logo-WebStudio">WebStudio</a>
-      <ul class="address-list">
-        <li class="address-item">
-          <p class="address-link">м. Київ, пр-т Лесі Українки, 26</p>
-        </li>
-        <li class="address-item">
-          <p class="address-link">info@devstudio.com</p>
-        </li>
-        <li class="address-item">
-          <p class="address-link">+38 096 111 11 11</p>
-        </li>
+      <address class="address">м. Київ, пр-т Лесі Українки, 26</address>
+      <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </footer>
   </body>
